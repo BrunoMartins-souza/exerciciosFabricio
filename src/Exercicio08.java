@@ -1,16 +1,14 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio08 {
-
-	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-				
 /*
 Faça um programa que converta a temperatura dada em Fahrenheit para Celsius. Você pode
  testar se a sua resposta está correta, saiba que 100C = 212F. Considere C/5 = (F − 32)/9.
 */
-		
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+	public void exercicio08() {
+		Scanner input = new Scanner(System.in);
+
 		Float grauC;
 		Float grauF;
 		
@@ -22,5 +20,4 @@ Faça um programa que converta a temperatura dada em Fahrenheit para Celsius. Vo
 		System.out.print(grauF + "F. É equivalente a: " + grauC + "C.");
 		
 	}
-
 }

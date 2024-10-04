@@ -1,15 +1,13 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio06 {
-
-	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-		
 /*
  Desenvolva um programa que, dados dois valores A e B, troque os valores de forma que A passe
  a ter o valor de B e vice-versa. Exiba os valores após a troca.
 */
+
+import java.util.Scanner;
+public class Exercicio06 {
+	public void exercicio06() {
+		Scanner input = new Scanner(System.in);
+		
 		Integer a, b;
 		Integer x, y;
 		
@@ -25,5 +23,4 @@ public class exercicio06 {
 		System.out.println("O valor de B agora é: " + y);
 
 	}
-
 }

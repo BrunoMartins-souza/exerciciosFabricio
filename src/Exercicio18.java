@@ -1,11 +1,3 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio18 {
-
-	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-		
 /*
 (Decom/UFOP- Adaptado) A permissão para uma pessoa votar ou não é determinado pela idade dela, conforme a tabela 4.
 Crie um programa capaz de ler a idade de uma pessoa e imprimir sua classificação eleitoral.
@@ -23,6 +15,12 @@ Tabela 4: Classificação de pessoas eleitoras
  Eleitor facultativo
 */
 
+import java.util.Scanner;
+
+public class Exercicio18 {
+	public void exercicio18() {
+		Scanner input = new Scanner(System.in);
+
 		Integer idade;
 		
 		System.out.print("Informe sua idade: ");
@@ -35,7 +33,5 @@ Tabela 4: Classificação de pessoas eleitoras
 		}else {
 			System.out.print("Eleitor Obrigatório!");
 		}
-		
 	}
-
 }

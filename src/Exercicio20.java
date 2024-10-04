@@ -1,10 +1,3 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio20 {
-
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		
 /*
  Escreva um programa em Java para ler:
  • a descrição do produto (nome)
@@ -17,7 +10,13 @@ public class exercicio20 {
  • Se quantidade > 10 e quantidade <30, o desconto será de 5%
  • Se quantidade >= 30 o desconto será de 10%
 */
-		
+
+import java.util.Scanner;
+
+public class Exercicio20 {
+	public void exercicio20() {
+		Scanner input = new Scanner(System.in);
+
 		String produto;
 		Float quantidade, precoUni, total;
 		

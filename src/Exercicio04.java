@@ -1,14 +1,13 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio04 {
-
-	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-		
 /*
 Crie um programa que calcula a média simples de três notas fornecidas pelo usuário.
 */
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+	public void exercicio04() {
+		Scanner input = new Scanner(System.in);
+		
 		Float nota01, nota02, nota03;
 		Float media;
 		

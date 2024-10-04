@@ -1,15 +1,13 @@
-package exerciciosFabricio;
-import java.util.Scanner;
-public class exercicio05 {
-
-	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-		
 /*
 Escreva um programa que calcula o salário líquido de um funcionário. O programa deve solicitar
 o valor da hora de trabalho, o número de horas trabalhadas no mês e o percentual de desconto do INSS.
 */
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+	public void exercicio05() {
+		Scanner input = new Scanner(System.in);
 		
 		Float hora, valorH, liquido;
 		Float percentual,desconto, bruto;
@@ -27,8 +25,5 @@ o valor da hora de trabalho, o número de horas trabalhadas no mês e o percentu
 		
 		System.out.print("O seu salario líquido é: R$" + liquido);
 		
-		
-
 	}
-
 }
