@@ -7,7 +7,7 @@ Escreva um programa em Java para ler o número de votos brancos, nulos e válido
 import java.util.Scanner;
 
 public class Exercicio17 {
-	public exercicio17() {
+	public void exercicio17() {
 		Scanner input = new Scanner(System.in);
 
 		Float votosBranco, votosNulos, votosValidos;

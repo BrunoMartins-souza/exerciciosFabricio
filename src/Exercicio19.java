@@ -9,7 +9,7 @@ cada opção.
 import java.util.Scanner;
 
 public class Exercicio19 {
-	public exercicio19() {
+	public void exercicio19() {
 		Scanner input = new Scanner(System.in);
 
 	    Integer funcao;

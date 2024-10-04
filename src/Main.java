@@ -6,7 +6,7 @@ public class Main {
 
         int opc;
 
-        do{
+        do {
             System.out.println("Escolha uma opção para mostrar o resultado: ");
             System.out.println(" 1 - Exercício 01.");
             System.out.println(" 2 - Exercício 02.");
@@ -31,87 +31,87 @@ public class Main {
             System.out.print("Opção: ");
             opc = input.nextInt();
 
-            switch(opc){
+            switch (opc) {
                 case 1:
                     Exercicio01 ex1 = new Exercicio01();
                     ex1.exercicio01();
-                break;
-                case 2: 
+                    break;
+                case 2:
                     Exercicio02 ex2 = new Exercicio02();
                     ex2.exercicio02();
+                    break;
                 case 3:
                     Exercicio03 ex3 = new Exercicio03();
                     ex3.exercicio03();
-                break;
+                    break;
                 case 4:
                     Exercicio04 ex4 = new Exercicio04();
                     ex4.exercicio04();
-                break;
+                    break;
                 case 5:
                     Exercicio05 ex5 = new Exercicio05();
                     ex5.exercicio05();
-                break;
+                    break;
                 case 6:
                     Exercicio06 ex6 = new Exercicio06();
                     ex6.exercicio06();
-                break;
+                    break;
                 case 7:
                     Exercicio07 ex7 = new Exercicio07();
                     ex7.exercicio07();
-                break;
+                    break;
                 case 8:
                     Exercicio08 ex8 = new Exercicio08();
                     ex8.exercicio08();
-                break;
+                    break;
                 case 9:
                     Exercicio09 ex9 = new Exercicio09();
                     ex9.exercicio09();
-                break;
+                    break;
                 case 10:
                     Exercicio10 ex10 = new Exercicio10();
                     ex10.exercicio10();
-                break;
+                    break;
                 case 11:
                     Exercicio11 ex11 = new Exercicio11();
                     ex11.exercicio11();
-                break;
+                    break;
                 case 12:
                     Exercicio12e13 ex12e13 = new Exercicio12e13();
                     ex12e13.exercicio12e13();
-                break;
+                    break;
                 case 13:
                     Exercicio14 ex14 = new Exercicio14();
                     ex14.exercicio14();
-                break;
+                    break;
                 case 14:
                     Exercicio15 ex15 = new Exercicio15();
                     ex15.exercicio15();
-                break;
+                    break;
                 case 15:
                     Exercicio16 ex16 = new Exercicio16();
                     ex16.exercicio16();
-                break;
+                    break;
                 case 16:
                     Exercicio17 ex17 = new Exercicio17();
                     ex17.exercicio17();
-                break;
+                    break;
                 case 17:
                     Exercicio18 ex18 = new Exercicio18();
                     ex18.exercicio18();
-                break;
+                    break;
                 case 18:
                     Exercicio19 ex19 = new Exercicio19();
                     ex19.exercicio19();
-                break;
+                    break;
                 case 19:
                     Exercicio20 ex20 = new Exercicio20();
                     ex20.exercicio20();
-                break;
+                    break;
                 default:
                     System.out.println("Essa opção não é válida!");
-                break;
+                    break;
             }
-        }while (opc != 21);
+        } while (opc != 21);
     }
-    
 }

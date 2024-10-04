@@ -10,9 +10,7 @@
 import java.util.Scanner;
 
 public class Exercicio01 {
-
 	public void exercicio01() {
-		
 		Scanner input = new Scanner(System.in);
 		
 		Float numX, numY, resto;
@@ -26,8 +24,5 @@ public class Exercicio01 {
 		
 		System.out.print("O resto da divisão é: " + resto);
 		
-		
-
 	}
-
 }

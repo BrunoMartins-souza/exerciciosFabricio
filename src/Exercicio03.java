@@ -18,10 +18,6 @@ public class Exercicio03 {
 		calculo = pi * (raio *raio);
 		
 		System.out.print("A área do Círculo é: " + calculo);
-		
-		
-		
 
 	}
-	
 }

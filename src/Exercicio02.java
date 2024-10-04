@@ -19,8 +19,6 @@ public class Exercicio02 {
 		conversao = dolar * real;
 		
 		System.out.print("O valor do real é: R$" + conversao);
-		
-		
+			
 	}
-
 }
